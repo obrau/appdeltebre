@@ -1,1 +1,13 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="NAV" id="menu1">
+    <ion-content>
+        <!-- <img src="assets/imgs/emblema.png" alt=""> -->
+        <ion-list>
+            <button ion-item *ngFor="let page of pages" (click)="goToPage(page.component)" menuClose>
+                <ion-icon item-left name="{{ page.icon }}"></ion-icon>
+                {{ page.title }}
+            </button>    
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+<ion-nav [root]="rootPage" #NAV swipeBackEnabled="false"></ion-nav>

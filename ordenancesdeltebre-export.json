@@ -1,0 +1,24 @@
+{
+  "repositoris" : {
+    "prova" : {
+      "users" : {
+        "P8yZ7sBFrEW91kzb3pIqbeXEkmZ2" : {
+          "dni" : "-",
+          "email" : "xus93@hotmail.com",
+          "name" : "Usuario",
+          "repo" : "prova",
+          "role" : 1
+        }
+      }
+    }
+  },
+  "users" : {
+    "P8yZ7sBFrEW91kzb3pIqbeXEkmZ2" : {
+      "dni" : "-",
+      "email" : "xus93@hotmail.com",
+      "name" : "Usuario",
+      "repo" : "prova",
+      "role" : 1
+    }
+  }
+}
