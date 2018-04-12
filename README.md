@@ -17,5 +17,6 @@ git push -u newRepo master
 
 ## Pas 3
 - Crear un nou projecte a Firebase.
+- Activar autenticació per correu electrònic.
 - Copiar arxiu de configuració per aplicacions web.
 - Modificar fitxer /src/app/app.firebase.config.ts amb la nova configuració.
