@@ -95,5 +95,6 @@ export class MyApp {
     else this.rootPage = LoginPage;
 
     this.configRolePages();
+    this.globalVars.initLoading.dismiss();
   }
 }

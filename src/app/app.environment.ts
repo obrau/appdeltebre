@@ -4,7 +4,9 @@ import { User } from './../models/user';
 @Injectable()
 export class GlobalVars {
   
-  check: any;  
+  check: any;
+  init: boolean = true;
+  initLoading: any;  
   repo: string;
   user: User;
 

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, ToastController, LoadingController, AlertController } from 'ionic-angular';
 
 import { globalDefines } from '../../app/app.constants';
+import { GlobalVars } from '../../app/app.environment';
 import { User } from '../../models/user';
 import { UserCreds } from '../../models/user-creds';
 import { AuthProvider } from '../../providers/auth/auth';
@@ -21,7 +22,14 @@ export class LoginPage {
     public navParams: NavParams,
     public toastCtrl: ToastController,
     public authProvider: AuthProvider,
+    public globalVars: GlobalVars,
   ) {
+
+    if(globalVars.init) {
+      globalVars.initLoading = this.loadingCtrl.create();
+      globalVars.initLoading.present();
+      globalVars.init = false;
+    }
   }
 
   /**
