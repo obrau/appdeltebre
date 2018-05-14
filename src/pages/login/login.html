@@ -8,12 +8,12 @@
 
   <ion-item>
     <ion-label floating>Email</ion-label>
-    <ion-input [(ngModel)]="credentials.email" type="email" ></ion-input>
+    <ion-input [(ngModel)]="credentials.email" type="email" (keypress)="keyPress($event.keyCode)"></ion-input>
   </ion-item>  
 
   <ion-item>
     <ion-label floating>Contraseña</ion-label>
-    <ion-input [(ngModel)]="credentials.password" type="password" ></ion-input>
+    <ion-input [(ngModel)]="credentials.password" type="password" (keypress)="keyPress($event.keyCode)"></ion-input>
   </ion-item>
 
   <div class="spacer" style="height:40px;"></div>  

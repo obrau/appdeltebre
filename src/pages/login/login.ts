@@ -3,7 +3,6 @@ import { NavController, NavParams, ToastController, LoadingController, AlertCont
 
 import { globalDefines } from '../../app/app.constants';
 import { GlobalVars } from '../../app/app.environment';
-import { User } from '../../models/user';
 import { UserCreds } from '../../models/user-creds';
 import { AuthProvider } from '../../providers/auth/auth';
 
@@ -36,9 +35,8 @@ export class LoginPage {
    * Mètode per fer login al sistema. Si l'usuari
    * existeix i s'autentica correctament pot accedir.
    * 
-   * @param user Usuari a ser identificat
    */
-  login(user: User) {
+  login() {
     let loading = this.loadingCtrl.create();
     loading.present();
 
@@ -83,6 +81,12 @@ export class LoginPage {
         }
       ]
     }).present();
+  }
+
+  keyPress(keyCode) {
+    if(keyCode == 13 && this.credentials.email && this.credentials.password) {
+      this.login()
+    }
   }
 
   private showMessage(message: string) {
