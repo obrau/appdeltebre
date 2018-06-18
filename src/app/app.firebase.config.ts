@@ -1,8 +1,8 @@
 export const FIREBASE_CONFIG = {
-    apiKey: "AIzaSyACsQsq2N8H7C277ckLOh1nm6m53g9w7hU",
-    authDomain: "mictime-d0ac2.firebaseapp.com",
-    databaseURL: "https://mictime-d0ac2.firebaseio.com",
-    messagingSenderId: "746738227293",
-    projectId: "mictime-d0ac2",
-    storageBucket: "mictime-d0ac2.appspot.com",
+    apiKey: "AIzaSyDvJ8dKIqh6R0b7_pEYeRBqf-q2yugAOi4",
+    authDomain: "projecteprova-b4d5e.firebaseapp.com",
+    databaseURL: "https://projecteprova-b4d5e.firebaseio.com",
+    projectId: "projecteprova-b4d5e",
+    storageBucket: "",
+    messagingSenderId: "945273160732"
 };

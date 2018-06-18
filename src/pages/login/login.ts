@@ -12,7 +12,7 @@ import { AuthProvider } from '../../providers/auth/auth';
 })
 export class LoginPage {
 
-  credentials = {} as UserCreds;
+  credentials = {} as UserCreds; // Credencials de l'usuari
 
   constructor(
     public alertCtrl: AlertController,
