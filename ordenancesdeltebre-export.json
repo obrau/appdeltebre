@@ -2,9 +2,9 @@
   "repositoris" : {
     "prova" : {
       "users" : {
-        "P8yZ7sBFrEW91kzb3pIqbeXEkmZ2" : {
+        "wBSyheSz6PRJBMOG5mVJFz4Ydbr1" : {
           "dni" : "-",
-          "email" : "xus93@hotmail.com",
+          "email" : "oriol.brau.c@gmail.com",
           "name" : "Usuario",
           "repo" : "prova",
           "role" : 1
@@ -13,9 +13,9 @@
     }
   },
   "users" : {
-    "P8yZ7sBFrEW91kzb3pIqbeXEkmZ2" : {
+    "wBSyheSz6PRJBMOG5mVJFz4Ydbr1" : {
       "dni" : "-",
-      "email" : "xus93@hotmail.com",
+      "email" : "oriol.brau.c@gmail.com",
       "name" : "Usuario",
       "repo" : "prova",
       "role" : 1
