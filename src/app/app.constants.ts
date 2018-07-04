@@ -9,7 +9,6 @@ export const propertyNames = {
 }
 
 export const tableNames = {
-    Repo        : 'repositoris',
     User        : 'users',
 }
 

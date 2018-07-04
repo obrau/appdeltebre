@@ -1,19 +1,6 @@
 {
-  "repositoris" : {
-    "prova" : {
-      "users" : {
-        "wBSyheSz6PRJBMOG5mVJFz4Ydbr1" : {
-          "dni" : "-",
-          "email" : "oriol.brau.c@gmail.com",
-          "name" : "Usuario",
-          "repo" : "prova",
-          "role" : 1
-        }
-      }
-    }
-  },
   "users" : {
-    "wBSyheSz6PRJBMOG5mVJFz4Ydbr1" : {
+    "DbVzzn30oKaw6fBOUQyFyXYSuP32" : {
       "dni" : "-",
       "email" : "oriol.brau.c@gmail.com",
       "name" : "Usuario",

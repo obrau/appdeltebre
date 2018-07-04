@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="microdelta.baseionic" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>baseIonicApp</name>
-    <description>Base projecte Ionic</description>
+<widget id="microdelta.appdeltebre" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>appDeltebre</name>
+    <description>App Deltebre</description>
     <author email="xus@microdelta.net" href="http://www.microdelta.net/">Microdelta</author>
     <content src="index.html" />
     <access origin="*" />
