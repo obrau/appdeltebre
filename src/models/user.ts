@@ -8,7 +8,4 @@ export class User {
     password: string;
     repo: string;
     role: Role = Role.unauthorized;
-    state: string;
-    timetables?: any;
-    uuid_device: string;
 }
